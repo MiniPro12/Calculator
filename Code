@@ -1,0 +1,50 @@
+# MiniPro12
+
+# Calculator
+
+
+# Code >
+
+
+# Starting Unit
+print('MiniPro12')
+print('')
+print('Calculator')
+# User Unit
+print('')
+print('To stop running this program type close.')
+print("")
+n1 = int(input('Enter the first number : '))
+print('')
+o = input('Enter the operator (+, -, *, /) : ')
+print('')
+n2 = int(input('Enter the second number : '))
+print("")
+print("Calculating...")
+print("")
+# Calculating Unit
+if '+' in o:
+    ans1 = n1 + n2
+    print(ans1)
+elif '-' in o:
+    ans2 = n1 - n2
+    print(ans2)
+elif '*' in o:
+    ans3 = n1 * n2
+    print(ans3)
+elif '/' in o:
+    ans4 = n1 / n2
+    print(ans4)
+else:
+    print("Sorry! I don't know about that.")
+    print('')
+    print('Try Again!')
+# Finished
+
+
+# Code >
+
+
+# Calcualtor
+
+# MiniPro12
