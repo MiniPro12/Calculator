@@ -11,8 +11,6 @@ print('MiniPro12')
 print('')
 print('Calculator')
 # User Unit
-print('')
-print('To stop running this program type close.')
 print("")
 n1 = int(input('Enter the first number : '))
 print('')
